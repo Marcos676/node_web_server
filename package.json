@@ -1,0 +1,20 @@
+{
+  "name": "practica_proyecto_web_server",
+  "version": "1.0.0",
+  "description": "Proyecto de práctica de Web Server en NodeJS",
+  "license": "ISC",
+  "author": "Gabriel",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2"
+  }
+}
