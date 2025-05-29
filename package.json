@@ -4,7 +4,7 @@
   "description": "Proyecto de práctica de Web Server en NodeJS",
   "license": "ISC",
   "author": "Gabriel",
-  "type": "module",
+  "type": "commonjs",
   "main": "src/app.js",
   "scripts": {
     "dev": "nodemon src/app.js",

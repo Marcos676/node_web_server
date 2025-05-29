@@ -1,7 +1,7 @@
-import express from 'express';
-import path from 'path'; // para leer rutas de archivos estaticos, es decir, archivos que no cambian, como imagenes, css, html, js, etc. // path es propio de node.js
+const express = require('express');
+const path = require('path'); // para leer rutas de archivos estaticos, es decir, archivos que no cambian, como imagenes, css, html, js, etc. // path es propio de node.js
 
-export const startServer = (options) => {
+const startServer = (options) => {
     const { port, public_path } = options
     
     const app = express();
@@ -23,3 +23,5 @@ export const startServer = (options) => {
         console.log(`Server is running on http://localhost:${port}`);
 })
 }
+
+module.exports = startServer;
